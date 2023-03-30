@@ -9,12 +9,12 @@ protected:
 	int nSize;
 	bool bwide;
 	string line[11] = {
-		"¦¡","¦¢",
-		"¦£","¦¨","¦¤",
-		"¦§","¦«","¦©",
-		"¦¦","¦ª","¦¥"
+		"å¼","å¼›",
+		"å¿™","æˆ","å¿–",
+		"æˆ","æ‰˜","æ‰£",
+		"æˆŒ","æ‰›","æˆ"
 	};		
-	string stone[2] = { "¡Û","¡Ü" };	
+	string stone[2] = { "âˆ","â‰’" };	
 	void printUITop();	
 	string getLine(string, int, int);
 	void printUIRight(int);
